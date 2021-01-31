@@ -1,0 +1,130 @@
+.container  {
+    width: 100%;
+}
+
+section {
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px dashed #444;
+}
+
+.block {
+    width: 75px;
+    height: 75px;
+    margin: 25px;
+    border: 2px solid #333;
+}
+
+.active {
+    background: #fdffbc;
+}
+
+.hide {
+    display: none;
+}
+.crearfix{
+    display: block;
+    width: 100%;
+    clear: both;
+
+}
+.keyboard{
+    border: 1px solid #444;
+    padding: 5px;
+    border-radius: 5px;
+    position: relative;
+    width: 737px;
+    height: auto;
+}
+/* .keyboard::after{
+    border: 1px solid #444;
+    padding: 5px;
+    border-radius: 5px;
+    position: relative;
+    width: 737px;
+    content: "";
+    display: block;
+    clear: both;
+} */
+.line::after{
+    content: "";
+    display: block;
+    clear: both;
+    
+}
+.line-2::after{
+    content: "";
+    display: block;
+    clear: both;
+    width: 100%;
+}
+.line-3::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.line-4::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.line-5::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.key{
+    cursor: pointer;
+    float: left;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #000;
+    border-radius: 4px;
+    margin: 3px;
+    padding: 4px;
+    text-align: center;
+    line-height: 32px;
+}
+.key:hover{
+    background-color: #e6e6e6;
+}
+
+.backspace{
+    /* width: auto; */
+    width: 117px;
+    font-weight: 700;
+}
+.tab{
+    width: 75px;
+}
+.capsLock{
+    /* width: auto; */
+    width: 103px;
+}
+.enter{
+    /* width: auto; */
+    width: 103px;
+}
+.shift-l{
+    width: auto;
+}
+.shift-r{
+    width: auto;
+}
+.space{
+    width:300px;
+}
+.windows{
+    padding-top: 8px;
+}
+.context-menu{
+    padding-top: 8px;
+}
+.up{
+    font-size: 10px;
+    font-weight: 700;
+}
+.down{
+    font-size: 10px;
+    font-weight: 700;
+}
